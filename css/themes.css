@@ -1,0 +1,15 @@
+html[data-theme="light"] {
+  --bg: #f3f8f8;
+  --bg-2: #e8f2f2;
+  --surface: rgba(255, 255, 255, 0.82);
+  --surface-solid: #ffffff;
+  --surface-2: rgba(255, 255, 255, 0.64);
+  --text: #17303a;
+  --text-strong: #071920;
+  --muted: #59717b;
+  --border: rgba(17, 48, 58, 0.12);
+  --border-strong: rgba(0, 138, 129, 0.28);
+  --shadow-1: 0 16px 50px rgba(25, 58, 68, 0.1);
+  --shadow-2: 0 24px 90px rgba(25, 58, 68, 0.16);
+  --shadow-glow: 0 0 60px rgba(0, 138, 129, 0.1);
+}

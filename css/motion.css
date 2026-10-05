@@ -1,0 +1,107 @@
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(36px);
+}
+html[data-motion="reduced"] [data-reveal] {
+  opacity: 1;
+  transform: none;
+}
+html[data-motion="reduced"] *,
+html[data-motion="reduced"] *::before,
+html[data-motion="reduced"] *::after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  scroll-behavior: auto !important;
+  transition-duration: 0.01ms !important;
+}
+html[data-motion="reduced"] .cursor,
+html[data-motion="reduced"] .hero-parallax,
+html[data-motion="reduced"] #hero-canvas,
+html[data-motion="reduced"] .radar-sweep,
+html[data-motion="reduced"] .process-orbit {
+  display: none;
+}
+html[data-quality="low"] #hero-canvas {
+  opacity: 0.72;
+}
+html[data-quality="low"] .service-card:hover,
+html[data-quality="low"] .project-card:hover {
+  box-shadow: var(--shadow-1);
+}
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+@keyframes scrollWheel {
+  0% {
+    transform: translate(-50%, 0);
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, 12px);
+    opacity: 0;
+  }
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes loaderA {
+  to {
+    transform: rotateX(64deg) rotateZ(360deg);
+  }
+}
+@keyframes loaderB {
+  to {
+    transform: rotateY(64deg) rotateZ(360deg);
+  }
+}
+@keyframes loaderC {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+@keyframes radar {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes footerScan {
+  to {
+    transform: translateY(100%);
+  }
+}
+@keyframes toastIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes toastOut {
+  to {
+    opacity: 0;
+    transform: translateY(8px) scale(0.98);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

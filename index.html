@@ -1,0 +1,1119 @@
+<!doctype html>
+<html
+  lang="en"
+  dir="ltr"
+  data-theme="dark"
+  data-motion="full"
+  data-quality="medium"
+>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#07121b" />
+    <meta
+      name="description"
+      content="Kateta Tech — digital engineering, web development, visual design, cybersecurity, networking and cloud-focused interface work by Collinx Kateta."
+    />
+    <meta property="og:title" content="Kateta Tech — Digital Innovation" />
+    <meta
+      property="og:description"
+      content="Technology meets creativity. Explore Kateta Tech services, projects and contact. "
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="images/profile.png" />
+    <link rel="icon" type="image/png" href="images/logo1.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/regular/style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/bold/style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/lenis@1.3.26/dist/lenis.css"
+    />
+    <link rel="stylesheet" href="./css/tokens.css" />
+    <link rel="stylesheet" href="./css/themes.css" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="stylesheet" href="./css/components.css" />
+    <link rel="stylesheet" href="./css/motion.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@0.186.1/build/three.module.js"
+        }
+      }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lenis@1.3.26/dist/lenis.min.js"></script>
+    <title>Kateta Tech — Digital Innovation</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <div class="cursor" id="cursor" aria-hidden="true">
+      <span></span><b></b>
+    </div>
+    <div class="page-progress" aria-hidden="true"><span></span><i></i></div>
+
+    <div
+      class="site-loader"
+      id="site-loader"
+      role="status"
+      aria-label="Loading Kateta Tech"
+    >
+      <div class="loader-core" aria-hidden="true">
+        <span class="loader-ring loader-ring--a"></span>
+        <span class="loader-ring loader-ring--b"></span>
+        <span class="loader-ring loader-ring--c"></span>
+        <b>K</b>
+      </div>
+      <div class="loader-copy">
+        <span>01</span><strong>Initializing Kateta Tech</strong
+        ><small>Interface / Motion / Systems</small>
+      </div>
+      <button id="skip-loader" type="button">Skip intro</button>
+    </div>
+
+    <header class="site-header" id="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#home" aria-label="Kateta Tech home">
+          <span class="brand-mark" aria-hidden="true">K</span>
+          <span class="brand-word">Kateta<span>Tech</span><b>.</b></span>
+        </a>
+        <button
+          class="menu-toggle icon-button"
+          id="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+          aria-label="Open navigation"
+        >
+          <i class="ph ph-list" aria-hidden="true"></i>
+        </button>
+        <nav
+          class="primary-nav"
+          id="primary-nav"
+          aria-label="Primary navigation"
+        >
+          <a class="nav-link is-active" href="#home">Home</a>
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#services">Services</a>
+          <a class="nav-link" href="#process">Process</a>
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+          <a class="nav-link" href="#contact">Contact</a>
+          <span class="nav-indicator" aria-hidden="true"></span>
+        </nav>
+        <div class="header-actions">
+          <button
+            class="icon-button"
+            id="theme-toggle"
+            type="button"
+            aria-label="Switch theme"
+            title="Switch theme"
+          >
+            <i class="ph ph-sun" aria-hidden="true"></i>
+          </button>
+          <button
+            class="icon-button"
+            id="motion-toggle"
+            type="button"
+            aria-pressed="false"
+            aria-label="Reduce motion"
+            title="Reduce motion"
+          >
+            <i class="ph ph-waves" aria-hidden="true"></i>
+          </button>
+          <a class="header-cta magnetic" href="#contact"
+            ><span>Contact sales</span
+            ><i class="ph ph-arrow-up-right" aria-hidden="true"></i
+          ></a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero section" id="home" aria-labelledby="hero-title">
+        <video
+          class="hero-video"
+          autoplay
+          muted
+          loop
+          playsinline
+          poster="images/profile.png"
+          aria-hidden="true"
+        >
+          <source src="images/clip4.mp4" type="video/mp4" />
+        </video>
+        <div class="hero-video-scrim" aria-hidden="true"></div>
+        <div class="hero-grid-noise" aria-hidden="true"></div>
+        <div class="hero-grid-lines" aria-hidden="true">
+          <span></span><span></span><span></span><span></span>
+        </div>
+        <div
+          class="hero-parallax hero-parallax--far"
+          data-parallax="0.06"
+          aria-hidden="true"
+        ></div>
+        <div
+          class="hero-parallax hero-parallax--mid"
+          data-parallax="0.15"
+          aria-hidden="true"
+        ></div>
+        <div
+          class="hero-parallax hero-parallax--near"
+          data-parallax="0.27"
+          aria-hidden="true"
+        ></div>
+
+        <div class="container hero-layout">
+          <div class="hero-copy" data-reveal>
+            <div class="eyebrow">
+              <span class="eyebrow-dot"></span> NEXT-GEN DIGITAL ENGINEERING
+            </div>
+            <h1 id="hero-title" class="split-heading">Hello, it's <em>Me.</em><br><span class="hero-name">Collinx CODE 1</span></h1>
+            <!-- <h1 id="hero-title" class="split-heading">Hi it's me <em>COLLINX KATETA</em><br /><span class="hero-name"
+                >from kateta-technologies</span
+              >
+            </h1> -->
+            <p class="hero-role">
+              I build <span id="typed-role">digital products</span
+              ><span class="typing-caret" aria-hidden="true">▌</span> with sharp
+              thinking, strong engineering, and bold visual direction.
+            </p>
+            <p class="hero-intro">
+              Kateta Tech blends software engineering, cybersecurity, visual
+              design, and product architecture to create interfaces that feel
+              premium, clear, and unforgettable.
+            </p>
+            <div class="hero-actions">
+              <a class="button button--primary magnetic" href="#portfolio"
+                ><span>Explore the work</span
+                ><i class="ph ph-arrow-down-right" aria-hidden="true"></i
+              ></a>
+              <a class="button button--ghost magnetic" href="#about"
+                ><span>Read the story</span
+                ><i class="ph ph-arrow-right" aria-hidden="true"></i
+              ></a>
+            </div>
+            <div class="hero-domain-row" aria-label="Service areas">
+              <span>Web</span><span>Design</span><span>Security</span
+              ><span>Cloud</span><span>Networks</span>
+            </div>
+          </div>
+
+          <div class="hero-stage" data-reveal data-delay="0.12">
+            <div class="hero-stage-topline">
+              <span>Signature scene</span
+              ><span class="scene-status"
+                ><i class="status-dot" aria-hidden="true"></i
+                ><span id="scene-status">WebGL</span>
+                <b id="scene-quality">MED</b></span
+              >
+            </div>
+            <!-- <div class="hero-media-card tilt-card" data-tilt-strength="7">
+              <div class="media-card-glow" aria-hidden="true"></div>
+              <div class="scanline" aria-hidden="true"></div>
+              <img src="images/profile.png" alt="Collinx Kateta" class="hero-profile" loading="eager" fetchpriority="high">
+              <div class="media-card-meta"><div><span class="meta-label">Focus</span><strong>Technology × Creativity</strong></div><div class="meta-chip">Tanzania</div></div>
+            </div> -->
+            <div class="hero-3d-shell" aria-hidden="true">
+              <canvas id="hero-canvas"></canvas>
+              <div class="hero-3d-fallback"></div>
+            </div>
+            <div class="hero-orbit-caption" aria-hidden="true">
+              <span class="orbit-line"></span
+              ><small>ENGINEERING / DESIGN / SECURITY</small>
+            </div>
+            <div class="hero-corner hero-corner--a" aria-hidden="true">
+              SYS<br /><b>001</b>
+            </div>
+            <div class="hero-corner hero-corner--b" aria-hidden="true">
+              FPS<br /><b id="fps-readout">60</b>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-bottom-bar container" data-reveal data-delay="0.25">
+          <div class="hero-scroll-hint">
+            <span class="scroll-wheel"></span><span>Scroll to explore</span>
+          </div>
+          <div class="hero-trust-note">
+            <span>Built for</span
+            ><strong>clarity, speed &amp; imagination.</strong>
+          </div>
+        </div>
+        <div class="hero-scroll-direction" aria-hidden="true">
+          <span></span><b>01</b>
+        </div>
+      </section>
+
+      <section class="signal-strip" aria-label="Capabilities ticker">
+        <div class="marquee-track">
+          <span>SOFTWARE ENGINEERING <i>✦</i></span
+          ><span>CYBERSECURITY <i>✦</i></span
+          ><span>GRAPHICS DESIGN <i>✦</i></span
+          ><span>NETWORKING <i>✦</i></span
+          ><span>CLOUD SYSTEMS <i>✦</i></span
+          ><span>CREATIVE CODING <i>✦</i></span>
+          <span>SOFTWARE ENGINEERING <i>✦</i></span
+          ><span>CYBERSECURITY <i>✦</i></span
+          ><span>GRAPHICS DESIGN <i>✦</i></span
+          ><span>NETWORKING <i>✦</i></span
+          ><span>CLOUD SYSTEMS <i>✦</i></span
+          ><span>CREATIVE CODING <i>✦</i></span>
+        </div>
+      </section>
+
+      <section
+        class="section section--light about-section"
+        id="about"
+        aria-labelledby="about-title"
+      >
+        <div class="container about-layout">
+          <div class="about-visual" data-reveal>
+            <div class="section-index">01 / ABOUT</div>
+            <div class="circle-gallery" id="circle-gallery">
+              <div
+                class="circle-gallery-ring circle-gallery-ring--outer"
+                aria-hidden="true"
+              ></div>
+              <div
+                class="circle-gallery-ring circle-gallery-ring--inner"
+                aria-hidden="true"
+              ></div>
+              <div class="circle-slide-track">
+                <article
+                  class="circle-slide is-active"
+                  style="--slide-image: url(&quot;../images/PROFILE-1.png&quot;)"
+                >
+                  <div><span>Brand</span><strong>Kateta</strong></div>
+                </article>
+                <article
+                  class="circle-slide"
+                  style="--slide-image: url(&quot;../images/PROFILE-2.png&quot;)"
+                >
+                  <div><span>Creative</span><strong>Visual</strong></div>
+                </article>
+                <article
+                  class="circle-slide"
+                  style="--slide-image: url(&quot;../images/PROFILE-3.jpg&quot;)"
+                >
+                  <div><span>Product</span><strong>Systems</strong></div>
+                </article>
+                <article
+                  class="circle-slide"
+                  style="--slide-image: url(&quot;../images/profile.png&quot;)"
+                >
+                  <div><span>Code</span><strong>Software</strong></div>
+                </article>
+                <article
+                  class="circle-slide"
+                  style="--slide-image: url(&quot;../images/sample1.jpg&quot;)"
+                >
+                  <div><span>Ideas</span><strong>Future</strong></div>
+                </article>
+              </div>
+              <button
+                class="gallery-control gallery-control--prev magnetic"
+                type="button"
+                aria-label="Previous gallery item"
+              >
+                <i class="ph ph-arrow-left"></i>
+              </button>
+              <button
+                class="gallery-control gallery-control--next magnetic"
+                type="button"
+                aria-label="Next gallery item"
+              >
+                <i class="ph ph-arrow-right"></i>
+              </button>
+            </div>
+            <div class="gallery-dots" role="tablist" aria-label="About gallery">
+              <button
+                class="gallery-dot is-active"
+                type="button"
+                role="tab"
+                aria-selected="true"
+                aria-label="Brand"
+              ></button
+              ><button
+                class="gallery-dot"
+                type="button"
+                role="tab"
+                aria-selected="false"
+                aria-label="Creative"
+              ></button
+              ><button
+                class="gallery-dot"
+                type="button"
+                role="tab"
+                aria-selected="false"
+                aria-label="Product"
+              ></button
+              ><button
+                class="gallery-dot"
+                type="button"
+                role="tab"
+                aria-selected="false"
+                aria-label="Code"
+              ></button
+              ><button
+                class="gallery-dot"
+                type="button"
+                role="tab"
+                aria-selected="false"
+                aria-label="Ideas"
+              ></button>
+            </div>
+          </div>
+          <div class="about-copy" data-reveal data-delay="0.08">
+            <div class="eyebrow eyebrow--dark">
+              <span>01</span> Behind the interface
+            </div>
+            <h2 id="about-title">Technology should feel <span>human.</span></h2>
+            <p class="lead">
+              Kateta Technologies is committed to innovation and excellence.
+              Technical expertise is paired with creative thinking to deliver
+              digital experiences that are useful, clear and memorable.
+            </p>
+            <div class="about-story" data-pin-story>
+              <div class="story-rail"><span></span></div>
+              <div class="story-copy">
+                <article class="story-step is-active">
+                  <span>VISION</span>
+                  <h3>From idea → interface.</h3>
+                  <p>
+                    Every project starts with the problem, the person using it
+                    and the outcome that matters.
+                  </p>
+                </article>
+                <article class="story-step">
+                  <span>METHOD</span>
+                  <h3>Systems before decoration.</h3>
+                  <p>
+                    Structure, performance, accessibility and content hierarchy
+                    are solved before effects are layered on top.
+                  </p>
+                </article>
+                <article class="story-step">
+                  <span>RESULT</span>
+                  <h3>Experiences with a backbone.</h3>
+                  <p>
+                    Software, security, design and motion work together so the
+                    visual layer never hides the engineering.
+                  </p>
+                </article>
+              </div>
+            </div>
+            <a class="text-link magnetic" href="#services"
+              >See the capabilities <i class="ph ph-arrow-up-right"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="metrics-section" aria-label="Portfolio metrics">
+        <div class="container metrics-grid">
+          <div class="metric" data-reveal>
+            <span data-count="96">0</span><small>core service domains</small>
+          </div>
+          <div class="metric" data-reveal data-delay="0.05">
+            <span data-count="37">0</span><small>capability signals</small>
+          </div>
+          <div class="metric" data-reveal data-delay="0.1">
+            <span data-count="102">0</span><small>motion + UX checks</small>
+          </div>
+          <div class="metric" data-reveal data-delay="0.15">
+            <span data-count="74">0</span><small>design system language</small>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section services-section"
+        id="services"
+        aria-labelledby="services-title"
+      >
+        <div class="container">
+          <div class="section-heading-row" data-reveal>
+            <div>
+              <div class="eyebrow"><span>02</span> Capabilities</div>
+              <h2 id="services-title">
+                Services that connect <span>disciplines.</span>
+              </h2>
+            </div>
+            <div class="section-aside">
+              <span>DRAG / SWIPE</span><i class="ph ph-arrow-right"></i>
+            </div>
+          </div>
+          <div class="services-viewport">
+            <div class="services-track" id="services-track">
+              <article
+                class="service-card service-card--featured tilt-card magnetic-card"
+                data-service="web"
+                data-tilt-strength="5"
+              >
+                <div class="service-number">01</div>
+                <div class="service-icon"><i class="ph ph-code"></i></div>
+                <span class="service-kicker">WEB / PRODUCT</span>
+                <h3>Web Development</h3>
+                <p>
+                  Fast, secure and scalable websites and web applications with
+                  responsive interaction and backend-ready boundaries.
+                </p>
+                <button
+                  class="service-open"
+                  type="button"
+                  data-service-open="web"
+                >
+                  Explore service <i class="ph ph-arrow-up-right"></i>
+                </button>
+                <div class="card-glow"></div>
+              </article>
+              <article
+                class="service-card tilt-card magnetic-card"
+                data-service="graphics"
+                data-tilt-strength="5"
+              >
+                <div class="service-number">02</div>
+                <div class="service-icon"><i class="ph ph-palette"></i></div>
+                <span class="service-kicker">VISUAL / BRAND</span>
+                <h3>Graphics Design</h3>
+                <p>
+                  Brand identity, social graphics and marketing visuals built
+                  around a clear visual system rather than isolated artwork.
+                </p>
+                <button
+                  class="service-open"
+                  type="button"
+                  data-service-open="graphics"
+                >
+                  Explore service <i class="ph ph-arrow-up-right"></i>
+                </button>
+                <div class="card-glow"></div>
+              </article>
+              <article
+                class="service-card tilt-card magnetic-card"
+                data-service="marketing"
+                data-tilt-strength="5"
+              >
+                <div class="service-number">03</div>
+                <div class="service-icon">
+                  <i class="ph ph-chart-line-up"></i>
+                </div>
+                <span class="service-kicker">GROWTH / REACH</span>
+                <h3>Digital Marketing</h3>
+                <p>
+                  Campaign-ready pages, content systems and user journeys shaped
+                  around discoverability and measurable actions.
+                </p>
+                <button
+                  class="service-open"
+                  type="button"
+                  data-service-open="marketing"
+                >
+                  Explore service <i class="ph ph-arrow-up-right"></i>
+                </button>
+                <div class="card-glow"></div>
+              </article>
+              <article
+                class="service-card tilt-card magnetic-card"
+                data-service="cloud"
+                data-tilt-strength="5"
+              >
+                <div class="service-number">04</div>
+                <div class="service-icon"><i class="ph ph-cloud"></i></div>
+                <span class="service-kicker">DATA / CLOUD</span>
+                <h3>Cloud Solutions</h3>
+                <p>
+                  Interfaces for storing, managing and accessing information
+                  with visible progress, states and permission-aware UX.
+                </p>
+                <button
+                  class="service-open"
+                  type="button"
+                  data-service-open="cloud"
+                >
+                  Explore service <i class="ph ph-arrow-up-right"></i>
+                </button>
+                <div class="card-glow"></div>
+              </article>
+              <article
+                class="service-card tilt-card magnetic-card"
+                data-service="security"
+                data-tilt-strength="5"
+              >
+                <div class="service-number">05</div>
+                <div class="service-icon">
+                  <i class="ph ph-shield-check"></i>
+                </div>
+                <span class="service-kicker">DEFENSE / TRUST</span>
+                <h3>Cybersecurity</h3>
+                <p>
+                  Security-conscious forms, warnings and operational interfaces
+                  designed to make risk visible without creating fear or noise.
+                </p>
+                <button
+                  class="service-open"
+                  type="button"
+                  data-service-open="security"
+                >
+                  Explore service <i class="ph ph-arrow-up-right"></i>
+                </button>
+                <div class="card-glow"></div>
+              </article>
+              <article
+                class="service-card tilt-card magnetic-card"
+                data-service="networking"
+                data-tilt-strength="5"
+              >
+                <div class="service-number">06</div>
+                <div class="service-icon"><i class="ph ph-network"></i></div>
+                <span class="service-kicker">SYSTEMS / NETWORKS</span>
+                <h3>Networking</h3>
+                <p>
+                  Connectivity, infrastructure and device-facing concepts
+                  translated into clear operational interfaces.
+                </p>
+                <button
+                  class="service-open"
+                  type="button"
+                  data-service-open="networking"
+                >
+                  Explore service <i class="ph ph-arrow-up-right"></i>
+                </button>
+                <div class="card-glow"></div>
+              </article>
+            </div>
+          </div>
+          <div class="services-progress" aria-hidden="true"><span></span></div>
+        </div>
+      </section>
+
+      <section
+        class="process-section"
+        id="process"
+        aria-labelledby="process-title"
+      >
+        <div class="process-pin">
+          <div class="container process-layout">
+            <div class="process-intro" data-reveal>
+              <div class="eyebrow"><span>03</span> Operating system</div>
+              <h2 id="process-title">
+                A process built to keep <span>motion meaningful.</span>
+              </h2>
+              <p>
+                Four phases. One visual language. No effect is added unless it
+                improves understanding, feedback or atmosphere.
+              </p>
+              <div class="process-counter">
+                <strong id="process-number">01</strong><span>/ 06</span>
+              </div>
+            </div>
+            <div class="process-stage" id="process-stage">
+              <article class="process-panel is-active">
+                <span>01 / DISCOVER</span>
+                <h3>Frame the problem.</h3>
+                <p>
+                  Audience, primary job, information hierarchy, content and
+                  constraints establish the direction.
+                </p>
+                <div class="process-orbit" aria-hidden="true">
+                  <i></i><i></i><i></i><i></i><i></i><i></i>
+                </div>
+              </article>
+              <article class="process-panel">
+                <span>02 / ARCHITECT</span>
+                <h3>Build the system.</h3>
+                <p>
+                  Tokens, components, states, accessibility paths and a clean
+                  data boundary turn ideas into a repeatable structure.
+                </p>
+                <div class="process-orbit" aria-hidden="true">
+                  <i></i><i></i><i></i><i></i><i></i><i></i>
+                </div>
+              </article>
+              <article class="process-panel">
+                <span>03 / CHOREOGRAPH</span>
+                <h3>Direct the motion.</h3>
+                <p>
+                  Scroll, hover, touch and loading feedback share one timing
+                  scale, one easing family and one visual rhythm.
+                </p>
+                <div class="process-orbit" aria-hidden="true">
+                  <i></i><i></i><i></i><i></i><i></i><i></i>
+                </div>
+              </article>
+              <article class="process-panel">
+                <span>04 / HARDEN</span>
+                <h3>Refine the experience.</h3>
+                <p>
+                  Performance tiers, reduced motion, keyboard paths, responsive
+                  layouts and failure states complete the interface.
+                </p>
+                <div class="process-orbit" aria-hidden="true">
+                  <i></i><i></i><i></i><i></i><i></i><i></i>
+                </div>
+              </article>
+              <article class="process-panel">
+                <span>05 / LAUNCH</span>
+                <h3>Ship with confidence.</h3>
+                <p>
+                  Release planning, QA checks, stakeholder alignment and launch
+                  support ensure the product lands clearly and performs
+                  reliably.
+                </p>
+                <div class="process-orbit" aria-hidden="true">
+                  <i></i><i></i><i></i><i></i><i></i><i></i>
+                </div>
+              </article>
+              <article class="process-panel">
+                <span>06 / EVOLVE</span>
+                <h3>Measure and improve.</h3>
+                <p>
+                  Analytics, user feedback and iteration loops help the system
+                  adapt, sharpen and stay useful as goals and conditions change.
+                </p>
+                <div class="process-orbit" aria-hidden="true">
+                  <i></i><i></i><i></i><i></i><i></i><i></i>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section portfolio-section"
+        id="portfolio"
+        aria-labelledby="portfolio-title"
+      >
+        <div class="container portfolio-top" data-reveal>
+          <div>
+            <div class="eyebrow eyebrow--dark">
+              <span>04</span> Selected work
+            </div>
+            <h2 id="portfolio-title">Latest <span>projects.</span></h2>
+          </div>
+          <p>
+            Scroll through the portfolio. Hover or press a project to reveal its
+            depth and open the full detail panel.
+          </p>
+        </div>
+        <div class="portfolio-viewport">
+          <div class="portfolio-track" id="portfolio-track">
+            <article
+              class="project-card project-card--hero tilt-card"
+              data-project="web-design"
+            >
+              <img
+                src="images/sample1.jpg"
+                alt="Web design project preview"
+                loading="lazy"
+              />
+              <div class="project-shade"></div>
+              <div class="project-content">
+                <span>01 / WEB</span>
+                <h3>Web Design</h3>
+                <p>
+                  Modern UI/UX, responsive structure, performance and
+                  security-minded implementation.
+                </p>
+                <button
+                  class="project-link magnetic"
+                  type="button"
+                  data-project-open="web-design"
+                >
+                  Open project <i class="ph ph-arrow-up-right"></i>
+                </button>
+              </div>
+              <div class="project-corner">01</div>
+            </article>
+            <article class="project-card tilt-card" data-project="networking">
+              <img
+                src="images/sample5.jpg"
+                alt="Networking project preview"
+                loading="lazy"
+              />
+              <div class="project-shade"></div>
+              <div class="project-content">
+                <span>02 / SYSTEMS</span>
+                <h3>Networking</h3>
+                <p>
+                  Reliable connectivity, secure infrastructure and scalable
+                  network design.
+                </p>
+                <button
+                  class="project-link magnetic"
+                  type="button"
+                  data-project-open="networking"
+                >
+                  Open project <i class="ph ph-arrow-up-right"></i>
+                </button>
+              </div>
+              <div class="project-corner">02</div>
+            </article>
+            <article class="project-card tilt-card" data-project="cloud">
+              <img
+                src="images/sample9.jpg"
+                alt="Cloud storage project preview"
+                loading="lazy"
+              />
+              <div class="project-shade"></div>
+              <div class="project-content">
+                <span>03 / CLOUD</span>
+                <h3>Cloud Storage</h3>
+                <p>
+                  Secure storage, uploads, sharing and device-independent
+                  access.
+                </p>
+                <button
+                  class="project-link magnetic"
+                  type="button"
+                  data-project-open="cloud"
+                >
+                  Open project <i class="ph ph-arrow-up-right"></i>
+                </button>
+              </div>
+              <div class="project-corner">03</div>
+            </article>
+            <article class="project-card tilt-card" data-project="programming">
+              <img
+                src="images/sample3.jpg"
+                alt="Programming project preview"
+                loading="lazy"
+              />
+              <div class="project-shade"></div>
+              <div class="project-content">
+                <span>04 / CODE</span>
+                <h3>Programming</h3>
+                <p>
+                  Custom software solutions, modern technology, collaboration
+                  and quality.
+                </p>
+                <button
+                  class="project-link magnetic"
+                  type="button"
+                  data-project-open="programming"
+                >
+                  Open project <i class="ph ph-arrow-up-right"></i>
+                </button>
+              </div>
+              <div class="project-corner">04</div>
+            </article>
+            <article
+              class="project-card project-card--wide tilt-card"
+              data-project="software"
+            >
+              <img
+                src="images/sample6.jpg"
+                alt="Software design project preview"
+                loading="lazy"
+              />
+              <div class="project-shade"></div>
+              <div class="project-content">
+                <span>05 / SOFTWARE</span>
+                <h3>Software Design</h3>
+                <p>
+                  Efficient, future-ready and secure software thinking for
+                  real-world problems.
+                </p>
+                <button
+                  class="project-link magnetic"
+                  type="button"
+                  data-project-open="software"
+                >
+                  Open project <i class="ph ph-arrow-up-right"></i>
+                </button>
+              </div>
+              <div class="project-corner">05</div>
+            </article>
+            <article class="project-card tilt-card" data-project="graphics">
+              <img
+                src="images/sample8.jpg"
+                alt="Graphics design project preview"
+                loading="lazy"
+              />
+              <div class="project-shade"></div>
+              <div class="project-content">
+                <span>06 / VISUAL</span>
+                <h3>Graphics Design</h3>
+                <p>
+                  Creative branding, visual storytelling, professional artwork
+                  and innovative concepts.
+                </p>
+                <button
+                  class="project-link magnetic"
+                  type="button"
+                  data-project-open="graphics"
+                >
+                  Open project <i class="ph ph-arrow-up-right"></i>
+                </button>
+              </div>
+              <div class="project-corner">06</div>
+            </article>
+          </div>
+        </div>
+        <div class="portfolio-progress container" aria-hidden="true">
+          <span></span><b>SCROLL / DRAG</b>
+        </div>
+      </section>
+
+      <section
+        class="section skills-section"
+        id="skills"
+        aria-labelledby="skills-title"
+      >
+        <div class="container skills-layout">
+          <div class="skills-copy" data-reveal>
+            <div class="eyebrow"><span>05</span> Capability field</div>
+            <h2 id="skills-title">
+              A toolkit shaped around <span>systems.</span>
+            </h2>
+            <p class="lead">
+              The visual layer and the engineering layer should reinforce each
+              other. This field reacts to pointer movement and becomes still
+              when reduced motion is active.
+            </p>
+            <div
+              class="skill-cloud"
+              id="skill-cloud"
+              aria-label="Core capability areas"
+            >
+              <span data-weight="1">Frontend architecture</span
+              ><span data-weight="2">Interaction design</span
+              ><span data-weight="3">Responsive systems</span
+              ><span data-weight="2">Web security</span
+              ><span data-weight="1">Visual identity</span
+              ><span data-weight="2">Cloud concepts</span
+              ><span data-weight="3">Networking</span
+              ><span data-weight="2">Performance</span
+              ><span data-weight="1">Accessibility</span
+              ><span data-weight="3">Creative coding</span>
+            </div>
+          </div>
+          <div
+            class="skills-radar"
+            data-reveal
+            data-delay="0.08"
+            aria-hidden="true"
+          >
+            <div class="radar-grid">
+              <span></span><span></span><span></span><span></span>
+            </div>
+            <div class="radar-sweep"></div>
+            <div class="radar-dot radar-dot--1"></div>
+            <div class="radar-dot radar-dot--2"></div>
+            <div class="radar-dot radar-dot--3"></div>
+            <div class="radar-label radar-label--1">UI</div>
+            <div class="radar-label radar-label--2">SEC</div>
+            <div class="radar-label radar-label--3">SYS</div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section contact-section"
+        id="contact"
+        aria-labelledby="contact-title"
+      >
+        <div class="container contact-layout">
+          <div class="contact-copy" data-reveal>
+            <div class="eyebrow"><span>06</span> Start a conversation</div>
+            <h2 id="contact-title">
+              Have an idea?<br /><span>Let's engineer it.</span>
+            </h2>
+            <p>
+              Tell me what you are trying to build, improve or protect. The
+              front-end gives immediate feedback and can connect to an existing
+              service without changing the UI contract.
+            </p>
+            <div class="contact-orbit" aria-hidden="true">
+              <span></span><span></span><span></span
+              ><i class="ph ph-paper-plane-tilt"></i>
+            </div>
+          </div>
+          <div class="contact-panel tilt-card" data-reveal data-delay="0.08">
+            <div
+              class="form-status"
+              id="form-status"
+              role="status"
+              aria-live="polite"
+            ></div>
+            <form id="contact-form" novalidate>
+              <div class="form-grid">
+                <div class="field">
+                  <label for="fullname">Full Name</label
+                  ><input
+                    id="fullname"
+                    name="fullname"
+                    type="text"
+                    autocomplete="name"
+                    required
+                    minlength="2"
+                    aria-describedby="fullname-error"
+                  /><small id="fullname-error" class="field-error"></small>
+                </div>
+                <div class="field">
+                  <label for="email">Email Address</label
+                  ><input
+                    id="email"
+                    name="email"
+                    type="email"
+                    autocomplete="email"
+                    required
+                    aria-describedby="email-error"
+                  /><small id="email-error" class="field-error"></small>
+                </div>
+                <div class="field">
+                  <label for="mobile">Mobile Number</label
+                  ><input
+                    id="mobile"
+                    name="mobile"
+                    type="tel"
+                    autocomplete="tel"
+                    inputmode="tel"
+                    pattern="[0-9+() -]{8,}"
+                    required
+                    aria-describedby="mobile-error"
+                  /><small id="mobile-error" class="field-error"></small>
+                </div>
+                <div class="field">
+                  <label for="subject">Email Subject</label
+                  ><input
+                    id="subject"
+                    name="subject"
+                    type="text"
+                    required
+                    minlength="3"
+                    aria-describedby="subject-error"
+                  /><small id="subject-error" class="field-error"></small>
+                </div>
+                <div class="field field--full">
+                  <label for="message">Your Message</label
+                  ><textarea
+                    id="message"
+                    name="message"
+                    rows="7"
+                    required
+                    minlength="10"
+                    aria-describedby="message-error"
+                  ></textarea>
+                  <div class="textarea-meta">
+                    <small id="message-error" class="field-error"></small
+                    ><span id="message-count">0 / 800</span>
+                  </div>
+                </div>
+              </div>
+              <div class="form-footer">
+                <p class="form-note">
+                  Client-side validation improves UX; it is not a security
+                  boundary.
+                </p>
+                <button
+                  class="button button--primary magnetic"
+                  type="submit"
+                  id="contact-submit"
+                >
+                  <span>Send message</span
+                  ><i class="ph ph-paper-plane-tilt"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-scan" aria-hidden="true"><span></span></div>
+      <div class="container footer-top">
+        <div class="footer-brand">
+          <img
+            src="images/logo4.png"
+            alt="Kateta Tech logo"
+            loading="lazy"
+            class="footer-logo"
+          />
+          <div>
+            <strong>Kateta Tech</strong
+            ><span>Empowering Digital Innovation</span>
+          </div>
+        </div>
+        <div class="footer-links">
+          <a href="#home">Home</a><a href="#about">About</a
+          ><a href="#services">Services</a><a href="#process">Process</a
+          ><a href="#portfolio">Portfolio</a><a href="#contact">Contact</a>
+        </div>
+        <div class="footer-social" aria-label="Social links">
+          <a href="#" aria-label="Facebook"
+            ><i class="ph ph-facebook-logo"></i></a
+          ><a href="#" aria-label="Instagram"
+            ><i class="ph ph-instagram-logo"></i></a
+          ><a href="#" aria-label="LinkedIn"
+            ><i class="ph ph-linkedin-logo"></i></a
+          ><a href="#" aria-label="GitHub"><i class="ph ph-github-logo"></i></a>
+        </div>
+      </div>
+      <div class="container footer-middle">
+        <div><i class="ph ph-map-pin"></i> Arusha, Tanzania</div>
+        <div><i class="ph ph-phone"></i> +255 797 270 480</div>
+        <div><i class="ph ph-phone"></i> +255 662 074 848</div>
+        <div><i class="ph ph-envelope-simple"></i> info@katetatech.com</div>
+      </div>
+      <div class="container footer-bottom">
+        <span
+          >© <span id="year"></span> Kateta Technologies. All rights
+          reserved.</span
+        ><span class="footer-disclaimer"
+          >Front-end only • Progressive enhancement • Performance-aware
+          motion</span
+        >
+      </div>
+    </footer>
+
+    <dialog
+      class="detail-dialog"
+      id="detail-dialog"
+      aria-labelledby="detail-title"
+    >
+      <div class="detail-dialog-inner">
+        <button
+          class="icon-button detail-close"
+          id="detail-close"
+          type="button"
+          aria-label="Close dialog"
+        >
+          <i class="ph ph-x"></i>
+        </button>
+        <div class="eyebrow"><span id="detail-kicker">DETAIL</span></div>
+        <h2 id="detail-title">Service detail</h2>
+        <p id="detail-copy"></p>
+        <div class="detail-list" id="detail-list"></div>
+        <a
+          href="#contact"
+          class="button button--primary magnetic"
+          id="detail-cta"
+          >Discuss this work <i class="ph ph-arrow-up-right"></i
+        ></a>
+      </div>
+    </dialog>
+    <div
+      class="toast-region"
+      id="toast-region"
+      aria-live="polite"
+      aria-atomic="true"
+    ></div>
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# Node / Web
+node_modules/
+dist/
+build/
+
+# Logs
+*.log
+
+# Misc
+*.bak
+*.tmp
